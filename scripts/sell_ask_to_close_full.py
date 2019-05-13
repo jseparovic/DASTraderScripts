@@ -32,6 +32,4 @@ def das_script():
     Price = Ask
     TIF = STRING_TIF
     HANDINST = STRING_HANDINST
-    SELL = STRING_SEND
-
-    ROUTE = STRING_MARKET
+    """ SELL """

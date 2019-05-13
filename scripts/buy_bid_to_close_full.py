@@ -32,6 +32,4 @@ def das_script():
     Price = Bid
     TIF = STRING_TIF
     HANDINST = STRING_HANDINST
-    BUY = STRING_SEND
-
-    ROUTE = STRING_MARKET
+    """ BUY """

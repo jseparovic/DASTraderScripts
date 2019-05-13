@@ -36,6 +36,8 @@ def das_script():
 
     ROUTE = STRING_STOP
     SShare = INT_DISPLAY_SHARE
+    TIF = STRING_TIF
+    HANDINST = STRING_HANDINST
 
     # Get the risk in price
     StopType = STRING_TRAILING  # set to trailing temporarily to access the TrailPrice field
@@ -55,14 +57,10 @@ def das_script():
     Price = STRING_ROUND2
 
     ROUTE = STRING_LIMIT
-    SELL = STRING_SEND
+    """ BUY """
 
     # Here is the stop order
     ROUTE = STRING_STOP
     StopType = STRING_MARKET
     print("StopPrice=%s" % StopPrice)
-    TIF = STRING_TIF
-    HANDINST = STRING_HANDINST
-    SELL = STRING_SEND
-
-    ROUTE = STRING_MARKET
+    """ SELL """
