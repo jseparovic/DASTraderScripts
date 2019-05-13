@@ -8,8 +8,8 @@ GLOBALS = 'globals.py'
 
 DAS_SCRIPT = "def das_script():"
 
+
 def remove_comments(string):
-    string = re.sub(re.compile("\"\"\".*?\"\"\"", re.DOTALL), "", string)
     string = re.sub(re.compile("'''.*?\'''", re.DOTALL), "", string)
     string = re.sub(re.compile("\\s*#.*?\n", re.DOTALL), "\n", string)
     return string
